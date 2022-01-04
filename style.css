@@ -12,7 +12,7 @@ h1 {
 .para-color {
   color: #696969;
 }
-section {
+.flexible {
   display: flex;
   margin-bottom: 150px;
 }
@@ -40,4 +40,47 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+.color {
+  color: orange;
+}
+
+.text-size {
+  font-size: 40px;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px black;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+
+#baby-dev-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  border-radius: 15px;
+}
+
+#full-dev-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+  border-radius: 15px;
+}
+footer p {
+  text-align: center;
 }
